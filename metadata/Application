@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen2073",
     "type": "application",
     "reference": {
         "name": "items",
@@ -12,12 +11,9 @@
         ],
         "icon": null,
         "name": "FB",
-        "phoneStartupScreen": "resources/loading/Homescreen.jpg",
-        "tabletStartupScreen": "resources/loading/Homescreen~ipad.jpg"
+        "startupImage": "{\"320x460\":\"resources/loading/Homescreen.jpg\",\"768x1004\":\"resources/loading/Homescreen~ipad.jpg\"}"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen2073",
     "designerId": "application",
-    "$viewOrder": 0,
-    "iconCls": "icon-application",
-    "expanded": true
+    "iconCls": "icon-application"
 }

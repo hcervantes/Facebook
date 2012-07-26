@@ -22,12 +22,15 @@ Ext.application({
         'Login'
     ],
     name: 'FB',
-    phoneStartupScreen: 'resources/loading/Homescreen.jpg',
-    tabletStartupScreen: 'resources/loading/Homescreen~ipad.jpg',
+    startupImage: {
+        '320x460': 'resources/loading/Homescreen.jpg',
+        '768x1004': 'resources/loading/Homescreen~ipad.jpg'
+    },
 
     launch: function() {
 
         Ext.create('FB.view.Login', {fullscreen: true});
+
     }
 
 });
