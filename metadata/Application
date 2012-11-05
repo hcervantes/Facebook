@@ -11,9 +11,10 @@
         ],
         "icon": null,
         "name": "FB",
-        "startupImage": "{\"320x460\":\"resources/loading/Homescreen.jpg\",\"768x1004\":\"resources/loading/Homescreen~ipad.jpg\"}"
+        "startupImage": [
+            "{\"320x460\":\"resources/loading/Homescreen.jpg\",\"768x1004\":\"resources/loading/Homescreen~ipad.jpg\"}"
+        ]
     },
     "id": "ExtBox1-ext-gen2073",
-    "designerId": "application",
-    "iconCls": "icon-application"
+    "designerId": "application"
 }
