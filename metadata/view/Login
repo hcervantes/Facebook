@@ -31,7 +31,8 @@
                 "cls": [
                     "logo"
                 ]
-            }
+            },
+            "designerId": "cebfba0b-356b-41e5-9bc1-bdc5f2c0771f"
         },
         {
             "type": "formpanel",
@@ -42,8 +43,11 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyFormPanel",
-                "scrollable": "false"
+                "scrollable": [
+                    "false"
+                ]
             },
+            "designerId": "4191a48e-108c-4904-a482-3b5fbed35f4a",
             "cn": [
                 {
                     "type": "component",
@@ -57,7 +61,8 @@
                         "cls": [
                             "shadow"
                         ]
-                    }
+                    },
+                    "designerId": "5bdb27d5-264f-4532-b6de-821cf8afd977"
                 },
                 {
                     "type": "textfield",
@@ -74,7 +79,8 @@
                         "label": null,
                         "name": "email",
                         "placeHolder": "Email"
-                    }
+                    },
+                    "designerId": "30fb4f9a-3a48-4f61-95ce-5532b284ef21"
                 },
                 {
                     "type": "passwordfield",
@@ -91,7 +97,8 @@
                         "label": null,
                         "name": "password",
                         "placeHolder": "Password"
-                    }
+                    },
+                    "designerId": "192c6b39-ca54-4aba-adc7-26006e368559"
                 }
             ]
         },
@@ -106,7 +113,8 @@
                 "designer|userClassName": "MyButton",
                 "cls": "login-btn",
                 "text": "Log In"
-            }
+            },
+            "designerId": "495d72ca-76b7-44bb-a475-1c55ea770890"
         },
         {
             "type": "button",
@@ -119,7 +127,8 @@
                 "designer|userClassName": "MyButton",
                 "cls": "signup-btn",
                 "text": "Sign Up for Facebook"
-            }
+            },
+            "designerId": "5b43e423-ec2a-48d6-b806-5be2dd420d11"
         },
         {
             "type": "button",
@@ -132,7 +141,8 @@
                 "designer|userClassName": "MyButton",
                 "cls": "help-btn",
                 "text": "Help Center"
-            }
+            },
+            "designerId": "85abcfc5-ddd7-492c-a82e-1fbd41a8479b"
         },
         {
             "type": "component",
@@ -146,7 +156,8 @@
                 "cls": [
                     "help-line"
                 ]
-            }
+            },
+            "designerId": "aab72598-f4cd-46fc-aab6-3eda58dde08f"
         }
     ]
 }
