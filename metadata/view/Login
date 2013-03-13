@@ -1,5 +1,5 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,34 +8,33 @@
     "userConfig": {
         "container|align": "center",
         "container|pack": "center",
-        "designer|userClassName": "Login",
-        "designer|initialView": true,
         "cls": [
             "login-view"
         ],
+        "designer|userClassName": "Login",
+        "designer|initialView": true,
         "layout": "vbox",
         "scrollable": "vertical"
     },
-    "id": "ExtBox1-ext-gen2177",
     "designerId": "fd77cb23-e56e-4802-9796-4013af93d771",
     "cn": [
         {
-            "type": "component",
+            "type": "Ext.Component",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyComponent",
                 "cls": [
                     "logo"
-                ]
+                ],
+                "designer|userClassName": "MyComponent"
             },
             "designerId": "cebfba0b-356b-41e5-9bc1-bdc5f2c0771f"
         },
         {
-            "type": "formpanel",
+            "type": "Ext.form.Panel",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -50,32 +49,32 @@
             "designerId": "4191a48e-108c-4904-a482-3b5fbed35f4a",
             "cn": [
                 {
-                    "type": "component",
+                    "type": "Ext.Component",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyComponent1",
                         "cls": [
                             "shadow"
-                        ]
+                        ],
+                        "designer|userClassName": "MyComponent1"
                     },
                     "designerId": "5bdb27d5-264f-4532-b6de-821cf8afd977"
                 },
                 {
-                    "type": "textfield",
+                    "type": "Ext.field.Text",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyTextField",
                         "cls": [
                             "email"
                         ],
+                        "designer|userClassName": "MyTextField",
                         "label": null,
                         "name": "email",
                         "placeHolder": "Email"
@@ -83,17 +82,17 @@
                     "designerId": "30fb4f9a-3a48-4f61-95ce-5532b284ef21"
                 },
                 {
-                    "type": "passwordfield",
+                    "type": "Ext.field.Password",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyPasswordField",
                         "cls": [
                             "password"
                         ],
+                        "designer|userClassName": "MyPasswordField",
                         "label": null,
                         "name": "password",
                         "placeHolder": "Password"
@@ -103,59 +102,65 @@
             ]
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "login-btn"
+                ],
                 "designer|userClassName": "MyButton",
-                "cls": "login-btn",
                 "text": "Log In"
             },
             "designerId": "495d72ca-76b7-44bb-a475-1c55ea770890"
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "signup-btn"
+                ],
                 "designer|userClassName": "MyButton",
-                "cls": "signup-btn",
                 "text": "Sign Up for Facebook"
             },
             "designerId": "5b43e423-ec2a-48d6-b806-5be2dd420d11"
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "help-btn"
+                ],
                 "designer|userClassName": "MyButton",
-                "cls": "help-btn",
                 "text": "Help Center"
             },
             "designerId": "85abcfc5-ddd7-492c-a82e-1fbd41a8479b"
         },
         {
-            "type": "component",
+            "type": "Ext.Component",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyComponent2",
                 "cls": [
                     "help-line"
-                ]
+                ],
+                "designer|userClassName": "MyComponent2"
             },
             "designerId": "aab72598-f4cd-46fc-aab6-3eda58dde08f"
         }
