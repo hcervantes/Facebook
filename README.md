@@ -5,6 +5,6 @@ It does not contain any implementation logic, but does show how you can highly c
 standard Sencha Touch user interface widgets by including custom CSS.
 
 
-## Latest Project Archive
+## Project archives for previous Architect versions
 
 [Facebook.xda (build: 670)](http://cdn.sencha.com/architect/examples/facebook/Facebook-670.xda)

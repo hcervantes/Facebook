@@ -42,9 +42,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyFormPanel",
-                "scrollable": [
-                    "false"
-                ]
+                "scrollable": false
             },
             "designerId": "4191a48e-108c-4904-a482-3b5fbed35f4a",
             "cn": [
